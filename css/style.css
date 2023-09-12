@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+body {
+  background: #010922 !important;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+header::before {
+  content: "";
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../images/Background\ Ellipse.png");
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-section {
+  position: relative;
+}
+.hero-section::after {
+  content: "";
+  width: 20rem;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url("../images/Background\ Ellipse\ 1.png");
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  padding: 29px 156px !important;
+}
+.navbar-brand {
+  color: white !important;
+}
+.navbar-nav {
+  width: 100%;
+  justify-content: end;
+}
+.nav-link {
+  color: white !important;
+  font-family: Outfit;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 1px 18px;
+}
+.buy-btn {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  background-color: #312964;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buy-btn img {
+  width: 2rem;
+}
+.navbar-toggler:focus {
+  outline: none !important;
+  border: 1px solid transparent;
+  box-shadow: none !important;
+}
+
+.img-section {
+  display: flex;
+  justify-content: end;
+}
+.hero-section .img-section img {
+  height: 467px;
+}
+.content-wrapper {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  gap: 1px 70px;
+  color: white;
+}
+.text-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-heading {
+  text-align: left;
+  font-family: Outfit;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0em;
+  color: white;
+}
+.main-heading span {
+  color: #aed4db;
+}
+.describtion-p {
+  color: white;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.contained-btn,
+.outlined-btn {
+  width: 232.50048828125px;
+  height: 60px;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  background-color: #312964;
+  color: white;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.outlined-btn {
+  border: 1px solid #8ad1d2;
+  background-color: transparent;
+}
+.btn-grup {
+  display: flex;
+  gap: 7px 19px;
+}
+.section-heading {
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+
+.feature-section {
+  margin-top: 50px;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.feature1 img {
+  width: 175;
+  height: 64.70545959472656px;
+}
+.feature2 img {
+  width: 156.7596435546875px;
+  height: 24.264545440673828px;
+  margin: auto;
+}
+.feature3 img {
+  width: 63px;
+  height: 34.55860137939453px;
+  margin: auto;
+}
+.feature4 img {
+  width: 106;
+  height: 27.205711364746094px;
+}
+
+/*  */
+
+.sec-img-section img {
+  width: 495.0009765625px;
+  height: 471px;
+  border-radius: 15px;
+}
+.pricing-btn {
+  width: 255.0009765625px;
+  height: 60px;
+  top: 15px;
+  border-radius: 30px;
+  background-color: #312964;
+  color: white;
+  border: 1px solid transparent;
+  font-family: Outfit;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-transform: capitalize;
+}
+.testimonial-p {
+  font-size: 20px;
+}
+.cards-section {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 11px 44px;
+  flex-wrap: wrap;
+}
+.cards {
+  width: 360px;
+  height: 355px;
+  background: #0b0f2f;
+  border-radius: 25px;
+  padding: 14px 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cards p {
+  font-family: Roboto;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-img img {
+  width: 150px;
+  position: relative;
+  border-radius: 100px;
+  height: auto !important;
+  margin: auto;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 3px 2px;
+}
+.logo {
+  font-size: 22px;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form input {
+  width: 265.66070556640625px;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  background: #8f8fdb;
+  padding: 1px 15px;
+  margin-top: 30px;
+}
+::placeholder {
+  color: black;
+}
+.submit-btn {
+  background: #312964;
+  width: 116.03571319580078px;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  color: white;
+}
+@media screen and (max-width: 1145px) {
+  .hero-section .img-section img {
+    height: 350px;
+  }
+  .sec-img-section img {
+    width: 432px;
+    height: auto;
+  }
+  .contained-btn {
+    width: 215px;
+  }
+  .main-heading {
+    font-size: 58px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .content-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .content-wrapper2 {
+    flex-direction: column-reverse;
+  }
+  .hero-section .img-section img {
+    width: 22rem;
+    height: auto;
+  }
+  .navbar {
+    padding: 29px 30px !important;
+  }
+  .navbar-nav {
+    align-items: center;
+  }
+  .main-heading {
+    text-align: center;
+    font-size: 55px;
+  }
+  .contained-btn,
+  .outlined-btn {
+    width: 200px;
+  }
+  .feature-section {
+    margin-top: 0px;
+  }
+
+  .buy-btn {
+    margin: auto;
+  }
+  .pricing-btn {
+    margin: auto;
+  }
+  .sec-img-section img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  form {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 30px;
+  }
+  input {
+    margin-top: 0px !important;
+  }
+}
